@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'increaseicons';
+  src:  url('fonts/increaseicons.eot?2x2zyf');
+  src:  url('fonts/increaseicons.eot?2x2zyf#iefix') format('embedded-opentype'),
+    url('fonts/increaseicons.ttf?2x2zyf') format('truetype'),
+    url('fonts/increaseicons.woff?2x2zyf') format('woff'),
+    url('fonts/increaseicons.svg?2x2zyf#increaseicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="increaseicons-"], [class*=" increaseicons-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'increaseicons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.increaseicons-vr-headset:before {
+  content: "\e90b";
+}
+.increaseicons-parking:before {
+  content: "\e90a";
+}
+.increaseicons-bicycle:before {
+  content: "\e907";
+}
+.increaseicons-car:before {
+  content: "\e908";
+}
+.increaseicons-on-foot:before {
+  content: "\e909";
+}
+.increaseicons-check:before {
+  content: "\e905";
+}
+.increaseicons-trash:before {
+  content: "\e906";
+}
+.increaseicons-balcony:before {
+  content: "\e902";
+}
+.increaseicons-garden:before {
+  content: "\e903";
+}
+.increaseicons-terrace:before {
+  content: "\e904";
+}
+.increaseicons-email:before {
+  content: "\e900";
+}
+.increaseicons-phone:before {
+  content: "\e901";
+}
+.increaseicons-burger:before {
+  content: "\e90c";
+}
+.increaseicons-map-marker:before {
+  content: "\e90d";
+}

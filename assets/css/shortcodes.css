@@ -1,0 +1,36 @@
+.increase-gallery a{
+    position: relative;
+    display: block;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.increase-gallery a:after{
+    content: '';
+    display: block;
+    padding-top: 56%;
+}
+
+
+.increase-shortcode-icon,
+.increase-shortcode-icon-content{
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.increase-shortcode-icon{
+    padding-right: 15px;
+}
+
+
+.increase-shortcode-icon-content h4{
+    margin: 0;
+}
+
+.increase-shortcode-icon-content p{
+    font-size:1rem;
+}

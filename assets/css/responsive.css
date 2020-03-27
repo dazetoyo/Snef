@@ -1,0 +1,336 @@
+
+/* //////// */
+
+
+
+/* extra extra small */
+
+@media (max-width: 410px){
+    .header .navbar-brand img {
+        max-height: 38px !important;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+
+    .carousel-slider .owl-nav .owl-prev {
+        top: -17% !important;
+        left: 70% !important;
+    }
+
+    .carousel-slider .owl-nav .owl-next {
+        top: 0% !important;
+        right: 2% !important;
+    }
+
+    body:not(.rtl) .ubermenu.ubermenu-horizontal .ubermenu-item-level-0:first-child>.ubermenu-target{
+        padding-right:35px;
+    }
+    nav#ubermenu-main-2-header_menu-2{
+        font-size:25px;
+    }
+    div#header-menu{
+        background:white;
+        padding: 30px 0;
+    }
+    ul.ubermenu-submenu.ubermenu-submenu-id-206.ubermenu-submenu-type-flyout.ubermenu-submenu-drop.ubermenu-submenu-align-vertical_full_height.ubermenu-submenu-retractor-top{
+        width: 77% !important;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767px) {
+
+    ul#menu-menu-1 {
+        padding: 25px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+
+        div#content-row {
+            padding-top: 35px;
+        }
+
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991px) {
+
+            nav#ubermenu-main-2-header_menu-2{
+                font-size:25px;
+            }
+            div#header-menu{
+                background:white;
+                padding: 30px 0;
+            }
+
+
+    nav#ubermenu-main-2-header_menu-2{
+        display: flex;
+        justify-content: center;
+    }
+    .ubermenu .ubermenu-item{
+        display:flex !important;
+    }
+    .ubermenu-bar-align-right{
+        float:none !important;
+    }
+
+
+    .search-png{
+        background-size: 100%;
+        height: 55px;
+    }
+
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199px) {
+
+
+
+}
+
+
+/* Large 1600 devices (desktops, less than 1200px) */
+@media (max-width: 1650px) {
+
+    .vertical-text{
+        display:none;
+    }
+
+
+
+}
+
+
+/* //////// */
+
+/*Small small devices (landscape phones, 576px and up) */
+@media (min-width: 300px) {
+    .carousel-slider .owl-nav .owl-prev {
+        left: 68% !important;
+    top: -49% !important;
+    }
+
+    .carousel-slider .owl-nav .owl-next {
+    top: -18% !important;
+    right: 3% !important;
+    }
+
+}
+
+
+
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .carousel-slider .owl-nav .owl-prev {
+        left: 92% !important;
+        top: -10% !important;
+    }
+
+    .carousel-slider .owl-nav .owl-next {
+        top: 9% !important;
+        right: -6% !important;
+    }
+
+    ul.ubermenu-submenu.ubermenu-submenu-id-206.ubermenu-submenu-type-flyout.ubermenu-submenu-drop.ubermenu-submenu-align-vertical_full_height.ubermenu-submenu-retractor-top{
+        width:55% !important;
+    }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+li.ubermenu-retractor.ubermenu-retractor-mobile {
+    display: none;
+}
+ul.ubermenu-submenu.ubermenu-submenu-id-206.ubermenu-submenu-type-flyout.ubermenu-submenu-drop.ubermenu-submenu-align-vertical_full_height.ubermenu-submenu-retractor-top{
+    width:55% !important;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    .carousel-slider .owl-nav .owl-prev {
+            left: 91% !important;
+        top: 20% !important;
+    }
+    .carousel-slider .owl-nav .owl-next{
+        top:40% !important;
+        right: -2% !important;
+    }
+#menu-item-638{
+    display:none;
+}
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .vc_tta-panels-container{
+        width: 78%;
+    }
+    .negative-leftmargin{
+        margin-left:-45px;
+    }
+
+    .desktop-top-padding{
+        padding-top:88px;
+    }
+    .display-1{
+        font-size:5rem;
+    }
+
+    .fix-laptop-left-margin{
+        margin-left:50px;
+    }
+
+    .container {
+        max-width: 1600px !important;
+    }
+
+    div#id-313{
+        padding-right:100px;
+    }
+    div#id-289{
+        padding-right:100px;
+    }
+
+        div#content-row {
+            padding-top: 90px;
+        }
+
+            .carousel-slider .owl-nav .owl-prev {
+            left: 91% !important;
+            top: -44% !important;
+        }
+
+            .carousel-slider .owl-nav .owl-next{
+                top: -20% !important;
+                right: 3% !important;
+            }
+
+
+}
+
+
+/* Extra extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1900px) {
+
+
+
+    div.col-12 >  h5.text-danger{
+        margin-left:-66px;
+    }
+
+
+    .container {
+        max-width: 1600px !important;
+    }
+
+    /* .pr-200-desktop{
+        padding-right:200px;
+    } */
+
+    /* .pr-120-desktop{
+        padding-right:120px;
+    } */
+
+    .homepage-top-padding{
+        padding-top:170px;
+    }
+
+    .display-1{
+        font-size:6rem;
+    }
+
+    .pt-150-desktop{
+        padding-top:150px;
+    }
+
+
+
+    .left-desktop-85-padding{
+        padding-left:85px;
+        /* margin-top: 50px; */
+    }
+
+
+}
+
+
+/* /////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+
+    .display-1{
+        font-size: 3.5rem;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+/* ///////// */
+
+@media screen and (orientation:portrait){
+    /* FancyBox */
+    .fancybox-thumbs {
+        top: auto;
+        width: auto;
+        bottom: 0;
+        left: 0;
+        right : 0;
+        height: 95px;
+        padding: 10px 10px 5px 10px;
+        box-sizing: border-box;
+        background: rgba(0, 0, 0, 0.3);
+    }
+
+    .fancybox-thumbs>ul{
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .fancybox-thumbs>ul>li{
+        float: none;
+        display: inline-block;
+    }
+
+    .fancybox-show-thumbs .fancybox-inner {
+        right: 0;
+        bottom: 95px;
+    }
+}

@@ -1,0 +1,14 @@
+.acf-range-wrap input[type="number"]{
+	min-width: 5em !important;
+}
+
+.acf-taxonomy-field .categorychecklist-holder{
+	max-height: 100px !important;
+}
+
+.increase-hide-building-child .acf-taxonomy-field .categorychecklist-holder ul.children{
+	opacity: 0 !important;
+	visibility: hidden !important;
+	height: 0 !important;
+	display: none !important;
+}
